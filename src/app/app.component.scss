@@ -1,0 +1,43 @@
+.password-strength-container {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.strength-indicator {
+  display: flex;
+  width: 100%;
+}
+
+.strength-bar {
+  height: 10px;
+  flex: 1;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.gray {
+  background-color: #ccc;
+}
+
+.red {
+  background-color: #ff4b4b;
+}
+
+.yellow {
+  background-color: #ffeb3b;
+}
+
+.green {
+  background-color: #4caf50;
+}
